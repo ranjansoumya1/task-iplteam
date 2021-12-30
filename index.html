@@ -1,0 +1,280 @@
+<html>
+<head>
+    <title>index</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing:border-box;
+}
+a
+{
+text-decoration:none;
+color:black;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(white,black);
+}
+p
+{
+  background-color: rgb(169, 243, 9);
+  color:black;
+  display: inline-block;
+}
+p:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row 
+{
+  margin: 40px 60px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+
+
+/* Style the counter cards */
+.card1 {
+  background: linear-gradient(180deg, #dad8d2 0%, #423834 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: rgb(236, 221, 8);
+}
+.card2 {
+  background: linear-gradient(180deg, #000000ec 0%, #000000f3 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: white;
+}
+.card3 {
+  background: linear-gradient(180deg, #6A6A6A 0%, #1C1C1C 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: white;
+}
+.card4 {
+  background: linear-gradient(180deg, #6026b1e3 0%, #9e73db 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: white;
+}
+.card5 {
+  background: linear-gradient(180deg, #e97f4e 0%, #d35b6b 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: white;
+}
+.card6 {
+  background: linear-gradient(180deg, #006CB7 0%, #003B7A 100%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  padding: 15px;
+  text-align: center;
+  background-color: #c4ebd9;
+  margin: 10px;
+  color: white;
+}
+.card1:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+.card2:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+.card3:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+.card4:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+.card5:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+.card6:hover
+{
+  transition:0.2s;
+  color: white;
+  background-color: black;
+}
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+tr,th,td
+{
+  background-color: white;
+  text-align: center;
+}
+h3
+{
+  font-family: 'Times New Roman', Times, serif;
+}
+</style>
+</head>
+<body>
+
+<center><h1 style="font-size: 50px;">IPL Cricket Teams</h1></center>
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<img src=2302884.jpg width=1400px height=900px> 
+
+<div class="row">
+  <div class="column">
+    <a href="CSK.html">
+    <div class="card1">
+      <h3>CSK</h3>
+    </div>
+    </a>
+  </div>
+
+  <div class="column">
+    <a href="KKR.html">
+    <div class="card2">
+      <h3>KKR</h3>
+    </div>
+    </a>
+  </div>
+  
+  <div class="column">
+    <a href="RCB.html">
+    <div class="card3">
+      <h3>RCB</h3>
+    </div>
+    </a>
+  </div>
+  </div>
+    
+<div class="row">
+<div class="column">
+  <a href="DelhiCapital.html">
+    <div class="card4">
+      <h3>DC</h3>
+    </div>
+    </a>
+    </div>
+
+  <div class="column">
+    <a href="SRH.html">
+      <div class="card5">
+        <h3>SRH</h3>
+    </div>
+    </a>
+      </div>
+
+    <div class="column">
+      <a href="MI.HTML">
+        <div class="card6">
+          <h3>MI</h3>
+        </div>
+        </a>
+      </div>
+      </div>
+      <script>
+      function myFunction()
+       {
+      
+       var input = document.getElementById("myInput");
+         var filter = input.value.toUpperCase();
+         var table = document.getElementById("myTable");
+        var tr = table.getElementsByTagName("tr");
+        for (i = 0; i < tr.length; i++) 
+        {
+          td = tr[i].getElementsByTagName("td")[0];
+          if (td)
+          {
+          var   txtValue = td.textContent || td.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) 
+            {
+              tr[i].style.display = "";
+            } else {
+              tr[i].style.display = "none";
+            }
+          }       
+          
+        }
+      }
+      </script>
+      
+
+</body>
+</html>
